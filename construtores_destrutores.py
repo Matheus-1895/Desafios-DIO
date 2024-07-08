@@ -10,26 +10,15 @@ class Cachorro:
 
     def falar(self):
         print("auau")
+        
+    def __str__(self):
+        return f"{self.__class__.__name__}: {', '.join([f'{chave}={valor}' for chave, valor in self.__dict__.items()])}"
 
 
-def criar_cachorro():
-    c = Cachorro("Zeus", "Branco e preto", False)
-    print(c.nome)
-
-def __str__():
-    return f"{self.__clas__.__name__}: {''.join([f'{chave}={valor}' for chave, valor in self.__dict__.items()])}"
-
-
-c = Cachorro("Chappie", "amarelo")
-c.falar()
-print(c)
-
-print("Ola mundo")
-
-del c
-
-print("Ola mundo")
-print("Ola mundo")
-print("Ola mundo")
-
-# criar_cachorro()
+c1 = Cachorro("Chappie", "amarelo")
+c2 = Cachorro("Thor", "branco" , False)
+c3 = Cachorro('Scooby', 'Branco e Preto')
+c1.falar()
+print(c1)
+print(c2)
+print(c3)  # Imp    rimindo a segunda instância criada
