@@ -26,3 +26,10 @@ print(c)
 
 print("Ola mundo")
 
+del c
+
+print("Ola mundo")
+print("Ola mundo")
+print("Ola mundo")
+
+# criar_cachorro()
