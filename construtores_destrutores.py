@@ -16,16 +16,13 @@ def criar_cachorro():
     c = Cachorro("Zeus", "Branco e preto", False)
     print(c.nome)
 
+def __str__():
+    return f"{self.__clas__.__name__}: {''.join([f'{chave}={valor}' for chave, valor in self.__dict__.items()])}"
+
 
 c = Cachorro("Chappie", "amarelo")
 c.falar()
+print(c)
 
 print("Ola mundo")
 
-del c
-
-print("Ola mundo")
-print("Ola mundo")
-print("Ola mundo")
-
-# criar_cachorro()
