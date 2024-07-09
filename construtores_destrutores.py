@@ -21,4 +21,4 @@ c3 = Cachorro('Scooby', 'Branco e Preto')
 c1.falar()
 print(c1)
 print(c2)
-print(c3)  # Imprimindo a segunda instância criada
+print(c3)  # Imprimindo as instância criada          
