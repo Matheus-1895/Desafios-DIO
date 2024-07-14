@@ -16,10 +16,3 @@ print(Times_estadios.values())
 print(Times_estadios.keys())
 
 #Times_estadios : ['Santos'] = 'Vila Belmiro'
-
-
-for chave in Times_estadios:
-    print(chave, Times_estadios[chave])
-
-for chave, valor in Times_estadios.values():
-    print(chave, valor)
