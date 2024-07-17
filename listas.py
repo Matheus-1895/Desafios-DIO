@@ -25,11 +25,6 @@ print(lista[::-1] )# ["n", "o", "h", "t", "y", "p"]
 for indice, carro in enumerate(carros):
     print(f"{indice}: {carro}")
 
-lista = [1, "Python", [40, 30, 20]]
-print(lista)
-lista.clear() # LIMPA A LISTA
-print(lista)  
-
 
 lista2 = []
 lista2.append(1) # APPEND ADICIONA COISAS A LISTA
@@ -44,7 +39,7 @@ print(linguagens) # ["python", "js", "c", "java", "csharp"]
 
 lista = [1, "Python", [40, 30, 20]]
 print(lista) # [1, "Python", [40, 30, 20]]
-lista.clear()
+lista.clear() # LIMPA A LISTA
 print(lista) # []
 
 
@@ -55,8 +50,8 @@ print(lista3) # [1, "Python", [40, 30, 20]]
 
 cores = ["vermelho", "azul", "verde", "azul"]
 cores.count("vermelho") # DIZ QUANTAS VEZES CADA OBJETO APARECE NA LISTA
-cores.count("azul") 
-cores.count("verde") 
+cores.count("azul")
+cores.count("verde")
 
 linguagens = ["python", "js", "c", "java", "csharp"]
 linguagens.index("java") # DIZ QUAL A POSICAO QUE APARECE O OBJETO PELA PRIMEIRA VEZ QUE O OBJETO ESTA
