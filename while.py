@@ -1,6 +1,6 @@
 opcao = -1
 
-while opcao != 0 and opcao < 3:
+while opcao != 0 or opcao < 3:
     opcao = int(input("[1] sacar \n[2] Extrato\n[0] Sair\n:"))
 
     if opcao == 1:
