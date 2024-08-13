@@ -8,7 +8,7 @@ while i <= 5 :
 
 print(nomes)
 
-/////////
+#///////////////////////////////////////
 
 n = int(input("Digite um numero"))
 
@@ -18,7 +18,7 @@ while numero <= n:
     print(numero)
     numero += 1
 
-//////
+#///////////////////////////////////////
 
 opcao = -1
 
@@ -33,3 +33,31 @@ while opcao != 0 and opcao < 3:
         print("Opcao invalida, vsfd")
 else:
     print("Tchau, até logo")
+
+#///////////////////////////////////////
+
+continuar = 's'
+
+while continuar.lower() == 's':
+
+    num1 = float(input('Digite um numero:'))
+    num2 = float(input('Digite outro numero:'))
+    resultado = num1 + num2
+    print(f'O resoltado de {num1} + {num2} = {resultado}')
+
+    continuar = (input('Deseja fazer uma operaçao?[S ou N]'))
+
+#///////////////////////////////////////
+
+funcionarios = []
+
+while True:
+    nome = input("Digite o nome da pessoa (ou digite '0' para terminar): ")
+    
+    if nome == "0":
+        break
+    
+    funcionarios.append(nome)
+
+
+print(funcionarios)
