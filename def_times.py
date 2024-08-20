@@ -4,6 +4,11 @@ def adicionar_time(times, nome_time):
 
 times = []
 
+def ver_times(times):
+    print('/n Times do Campeonato:')
+    for time in times:
+        print(f'- {time}')
+
 while True:
     print('1. Adicionar times:')
     print('2. Ver times:')
@@ -15,12 +20,7 @@ while True:
         nome_time = input('Digite o nome de um time: ')
         adicionar_time(times, nome_time)
     elif escolha == '2':
-        if times:
-            print('Times no campeonato:')
-            for time in times:
-                print(f'- {time}')
-        else:
-            print('Nenhum time foi adicionado ainda.')
+        ver_times(times)
     elif escolha == '0':
         break
     else:
