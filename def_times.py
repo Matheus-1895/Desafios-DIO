@@ -5,9 +5,9 @@ def adicionar_time(times, nome_time):
 times = []
 
 def ver_times(times):
-    print('/n Times do Campeonato:')
-    for time in times:
-        print(f'- {time}')
+    print('\nTimes do Campeonato:')
+    for indice, time in enumerate(times, start=1):
+        print(f'-{indice}. {time}')
 
 while True:
     print('1. Adicionar times:')
